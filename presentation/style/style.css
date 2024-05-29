@@ -5,16 +5,24 @@
     box-sizing: border-box;
     font-family: "Chakra Petch" , sans-serif;
 }
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .contain {
     width: 100%;
-    height: 100vh;
+    height: 250vh;
     background: #3f3f3f;
 }
 .contain h1 {
     font-size: 13.5vw;
     text-align: center;
     color: #fff;
-    position: relative;
+    position: sticky;
+    top: 0;
 }
 .contain span {
     color: orange;
@@ -22,12 +30,39 @@
 .phone_main {
     width: 350px;
     height: 720px;
-    background: #000;
+    background: url(/presentation/images/iphoebg.png);
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 50%;
     transform: translate(-50% , -50%);
     border-radius: 50px;
+}
+.bezel {
+    width: 100%;
+    height: 100%;
+    border: 10px solid #000;
+    border-radius: 50px;
+}
+.notch {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    background: #000;
+    margin: 0 auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    top: 10px;
+    left: 115px;
+}
+.camera {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    background: rgba(211, 211, 211, 0.5);
+    filter: blur(3px);
 }
 .phone_inner {
     width: 326px;
@@ -63,13 +98,25 @@
     margin: 30px 0;
     width: 100%;
     height: 500px;
+    position: relative;
 }
 .mainCon > .aboutMe {
     width: 100%;
     height: 90px;
     padding: 2px 20px;
-    background: orange;
+    border: 1px solid #fff;
     border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.aboutMe:hover {
+    transform: scale(1.1);
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.aboutMe > h4 {
+    color: #fff;
 }
 .aboutMe > .mySns {
     width: 100%;
@@ -163,7 +210,10 @@
     letter-spacing: 4px;
     font-size: 20px;
     line-height: 20px;
-    color: #fff;
+    color: #000;
+}
+.pointing  i {
+    color: #000;
 }
 .apps_contain {
     width: 100%;
@@ -189,7 +239,34 @@
 .apps_contain > ul > li:first-child {
     background: linear-gradient(to top , yellow , red , purple);
 }
+.apps_contain > ul > li:nth-child(2) {
+    background: #fff;
+}
+.apps_contain > ul > li:nth-child(2) i {
+    color: rgb(31, 175, 232);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apps_contain > ul > li:nth-child(4) {
+    background: #fff;
+}
+.apps_contain > ul > li:nth-child(4) i {
+    color: rgb(79, 42, 168);
+    font-size: 40px;
+    line-height: 50px;
+}
 .apps_contain > ul > li:first-child > a > i {
     font-size: 40px;
     line-height: 50px;
+}
+.apps_contain > ul > li > a > img {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    margin-top: 2.5px;
+}
+.apps_contain > ul > li:nth-child(3) {
+    background: #fff;
 }
