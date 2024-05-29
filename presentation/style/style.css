@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chakra Petch" , sans-serif;
+}
+.contain {
+    width: 100%;
+    height: 100vh;
+    background: #3f3f3f;
+}
+.contain h1 {
+    font-size: 13.5vw;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.contain span {
+    color: orange;
+}
+.phone_main {
+    width: 350px;
+    height: 720px;
+    background: #000;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 50px;
+}
+.phone_inner {
+    width: 326px;
+    height: 706px;
+    padding: 16px 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.info_bar {
+    width: 290px;
+    height: 12.016px;
+    margin-bottom: 16px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.info_bar > #time {
+    width: 32.109px;
+    height: 12px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 12px;
+    font-weight: bold;
+}
+.info_bar > img {
+    width: 72px;
+    height: 100%;
+}
+.mainCon {
+    margin: 30px 0;
+    width: 100%;
+    height: 400px;
+}
+.mainCon > .aboutMe {
+    width: 100%;
+    height: 90px;
+    padding: 2px 20px;
+    background: orange;
+    border-radius: 10px;
+}
+.aboutMe > h4 {
+    font-size: 20px;
+    color: #fff;
+}
+.aboutMe:hover {
+    width: 1000px;
+    height: 1000px;
+}
+.aboutMe > .mySns {
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.mySns > p {
+    line-height: 30px;
+    color: #fff;
+}
+.snsHref {
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: start;
+}
+.snsHref a {
+    display: block;
+}
+.snsHref i {
+    font-size: 22px;
+    color: #fff;
+    margin-left: 15px;
+    line-height: 30px;
+}
+.snsHref a > i {
+    color: #fff;
+}
+.myInfo {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.myInfo > p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+}
+.myInfo > p:nth-child(2) {
+    margin-left: 20px;
+    color: #fff;
+}
+.myInfo > p:nth-child(3) {
+    margin-left: 10px;
+    color: #fff;
+}
+.profile {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: #fff;
+    position: relative;
+}
+.img_hide {
+    width: 100%;
+    height: 100%;
+    line-height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 2;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.img_hide:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: transparent;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.profile > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    object-fit: cover;
+}
+.pointing {
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+}

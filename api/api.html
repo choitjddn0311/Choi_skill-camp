@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+</head>
+<body>
+    <div id="posts"></div>
+    <script>
+        const url = "https://jsonplaceholder.typicode.com/posts" //json 글이 있는 링크를 url이라는 변수에 넣어준다
+        const showPosts = (posts) => { //showPost라는 변수를 선언해 post가 ~하면
+            posts.forEach(p => { // foreach()문(배열을 순회하여 각 요소를 콜백하는 함수) 으로 
+                const div = ` 
+                    <div>
+                        <h3>#${p.id} ${p.title}</h3>
+                        <p>${p.body}</p>
+                        <p>UserId : ${p.userId}</p>
+                    </div>
+                ` //div 라는 변수를 선언한 뒤에 h3에 id 와 title 이런식으로 하나씩 넣어준다 꼭 id 나 변수를 적을때는 ``백틱을 빼지말자
+                document.querySelector("#posts").innerHTML += div //#post라는 html요소에 div를 뿌려준다
+            })
+        }
+        fetch(url) //요청을 해 데이터를 가져온후 프로미스로 반환함 
+            .then(response => response.json()) // 위에 프로미스로 반환이 잘 됐을때 .then이 실행됨 response는 네트워크 요청에 대한 응답 response.json()은 json형식으로 바꿔주고 프로미스로 반환
+            .then(posts => showPosts(posts)) //json파일이 파싱이 됐을때 실행하고 posts는 파싱된 json데이터를 나타냄 , showPosts는 데이터를 받아 화면에 표시(실제로 표시하진 않음)
+</script>
+</body>
+</html>
