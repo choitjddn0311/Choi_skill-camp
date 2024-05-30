@@ -1,0 +1,159 @@
+{
+    "korea": {
+      "city": [
+        {
+          "id": "KR-11",
+          "name_ko": "서울특별시",
+          "name_en": "Seoul",
+          "name_full": "Seoul Special City",
+          "info": "Seoul, the capital of South Korea, is a sprawling metropolis where hyper-modern skyscrapers, high-tech subways and pop culture meet Buddhist temples, palaces and street markets. Notable attractions include futuristic Dongdaemun Design Plaza, a convention hall with curving architecture and a rooftop park; Gyeongbokgung Palace, which once had more than 7,000 rooms; and Jogyesa Temple, site of centuries-old locust and pine trees.",
+          "area": "605.2 km²",
+          "population": "10.01 million (2014) UNdata"
+        },
+        {
+          "id": "KR-26",
+          "name_ko": "부산광역시",
+          "name_en": "Busan",
+          "name_full": "Busan Metropolitan City",
+          "info": "Busan, a large port city in South Korea, is known for its beaches, mountains and temples. Busy Haeundae Beach has a Folk Square with traditional games such as tug-of-war, while Gwangalli Beach is a nightlife hub with views of modern Diamond Bridge. Beomeosa, a Buddhist temple built in 678 C.E., is at the base of Geumjeong Mountain, which offers challenging hikes.",
+          "area": "767.4 km²",
+          "population": "3.417 million (2014) UNdata"
+        },
+        {
+          "id": "KR-27",
+          "name_ko": "대구광역시",
+          "name_en": "Daegu",
+          "name_full": "Daegu Metropolitan City",
+          "info": "Daegu, formerly spelled Taegu, and officially known as the Daegu Metropolitan City, is a city in South Korea, the fourth largest after Seoul, Busan, and Incheon, and the third largest metropolitan area in the nation with over 2.5 million residents.",
+          "area": "884.15km²",
+          "population": "2.467 million (2014) UNdata"
+        },
+        {
+          "id": "KR-28",
+          "name_ko": "인천광역시",
+          "name_en": "Incheon",
+          "name_full": "Incheon Metropolitan City",
+          "info": "Incheon, a South Korean city bordering the capital of Seoul, has long been a transportation hub. The ultramodern, massive Incheon International Airport, with railway connections to Seoul, features a casino, spa and golf course. Yeonan Pier, close to the popular Incheon Fish Market, is the starting point for many boat tours. Incheon is also known for its beach-lined islands, including Yeongjong and Muui-dong.",
+          "area": "1,029 km²",
+          "population": "2.838 million (2014) UNdata"
+        },
+        {
+          "id": "KR-29",
+          "name_ko": "광주광역시",
+          "name_en": "Gwangju",
+          "name_full": "Gwangju Metropolitan City",
+          "info": "Gwangju is the sixth largest city in South Korea. It is a designated metropolitan city under the direct control of the central government's Home Minister. Wikipedia",
+          "area": "501.2 km²",
+          "population": "1.522 million (2014) UNdata"
+        },
+        {
+          "id": "KR-30",
+          "name_ko": "대전광역시",
+          "name_en": "Daejeon",
+          "name_full": "Daejeon Metropolitan City",
+          "info": "Daejeon is South Korea's fifth-largest metropolis. Daejeon had a population of over 1.5 million in 2010. Located in the center of South Korea, Daejeon serves as a hub of transportation and is at the crossroads of major transport routes. Wikipedia",
+          "area": "539.8 km²",
+          "population": "1.552 million (2014) UNdata"
+        },
+        {
+          "id": "KR-31",
+          "name_ko": "울산광역시",
+          "name_en": "Ulsan",
+          "name_full": "Ulsan Metropolitan City",
+          "info": "Ulsan, officially the Ulsan Metropolitan City, is South Korea's seventh largest metropolis with a population of over 1.1 million. It is located in the south-east of the country, neighboring Busan to the south and facing Gyeongju to the north. Wikipedia",
+          "area": "1,057 km²",
+          "population": "1.124 million (2014) UNdata"
+        },
+        {
+          "id": "KR-41",
+          "name_ko": "경기도",
+          "name_en": "Gyeonggi",
+          "name_full": "Gyeonggi Province",
+          "info": "Gyeonggi-do is the most populous province in South Korea. Its name, Gyeonggi means `the area surrounding capital`. Thus Gyeonggi-do can be translated as `province surrounding Seoul`. The provincial capital is Suwon. Wikipedia",
+          "area": "10,171 km²",
+          "population": "25.6 million Wikipedia"
+        },
+        {
+          "id": "KR-42",
+          "name_ko": "강원도",
+          "name_en": "Gangwon",
+          "name_full": "Gangwon Province",
+          "info": "Gangwon is a mountainous, forested province in northeast South Korea. In its county of Pyeongchang, the Yongpyong and Alpensia ski resorts are host sites of the 2018 Winter Olympics. In the east, Seoraksan National Park has mountainside temples and hot springs. The gentle slopes of Odaesan National Park lead to the Stone Seated Buddha, and the steep cliffs of Chiaksan National Park offer more challenging trails.",
+          "area": "20,569 km²",
+          "population": "1.542 million (Oct 2014)"
+        },
+        {
+          "id": "KR-43",
+          "name_ko": "충청북도",
+          "name_en": "Chungbuk",
+          "name_full": "North Chungcheong Province",
+          "info": "North Chungcheong Province, or Chungcheongbuk-do, is a province in the centre of South Korea. It was formed in 1896 from the northeastern half of the former Chungcheong province. The provincial capital is Cheongju. Wikipedia",
+          "area": "7,433 km²",
+          "population": "1.579 million (Oct 2014)"
+        },
+        {
+          "id": "KR-44",
+          "name_ko": "충청남도",
+          "name_en": "Chungnam",
+          "name_full": "South Chungcheong Province",
+          "info": "South Chungcheong Province, or Chungcheongnam-do, is a province in the west of South Korea. The province was formed in 1896 from the south-western half of the former Chungcheong Province and remained ... Wikipedia",
+          "area": "8,204 km²",
+          "population": "2.06 million (Oct 2014)"
+        },
+        {
+          "id": "KR-45",
+          "name_ko": "전라북도",
+          "name_en": "Jeonbuk",
+          "name_full": "North Jeolla Province",
+          "info": "North Jeolla Province or Jeollabuk-do is a province in the southwest of South Korea. The province was formed in 1896 from the northern half of the former Jeolla province, and remained a province of ... Wikipedia",
+          "area": "8,067 km²",
+          "population": "1.872 million (Dec 2014)"
+        },
+        {
+          "id": "KR-46",
+          "name_ko": "전라남도",
+          "name_en": "Jeonnam",
+          "name_full": "South Jeolla Province",
+          "info": "South Jeolla Province or Jeollanam-do is a province in the southwest of South Korea. The province was formed in 1896 from the southern half of the former Jeolla province, remained a province of Korea ... Wikipedia",
+          "area": "12,247 km²",
+          "population": "1.902 million (Oct 2014)"
+        },
+        {
+          "id": "KR-47",
+          "name_ko": "경상북도",
+          "name_en": "Gyeongbuk",
+          "name_full": "North Gyeongsang Province",
+          "info": "North Gyeongsang Province, also known as Gyeongbuk, is a province in eastern South Korea. The province was formed in 1896 from the northern half of the former Gyeongsang province, remained a province ... Wikipedia",
+          "area": "19,030 km²",
+          "population": "2.7 million (Oct 2014)"
+        },
+        {
+          "id": "KR-48",
+          "name_ko": "경상남도",
+          "name_en": "South Gyeongsang Province",
+          "name_full": "North Gyeongsang Province",
+          "info": "South Gyeongsang is a province of South Korea that extends along the Korea Strait, west of Busan city. The provincial capital, Changwon, is famed for the light shows of Yongji Lake and for cherry-blossom viewing. Northeast of Changwon, the Junam Wetlands Park hosts migratory birds. Farther north, the Upo Wetland is known for summer fireflies. Inland, there are hot springs and spa resorts in the hills around Bugok.",
+          "area": "10,533 km²",
+          "population": "3.344 million (Oct 2014)"
+        },
+        {
+          "id": "KR-49",
+          "name_ko": "제주도",
+          "name_en": "Jeju",
+          "name_full": "Jeju Province",
+          "info": "Jeju, a South Korean island in the Korea Strait, is defined by its volcanic landscape full of craters and cavelike lava tubes. Hallasan Mountain, a dormant volcano visible throughout the island, features hiking trails, nearby Gwaneumsa Temple and a crater lake at the 1,950m summit. The Geomunoreum Lava Tube System includes 7.4km-long Manjanggul, created centuries ago when Hallasan was still active.",
+          "area": "1,849 km²",
+          "population": "604,771 (Oct 2014)"
+        },
+        {
+          "id": "KR-50",
+          "name_ko": "세종특별자치시",
+          "name_en": "Sejong",
+          "name_full": "Sejong Special Self-Governing City",
+          "info": "Sejong (Hangul: 세종, hanja: 世宗), officially Sejong Special Self-Governing City (Hangul: 세종특별자치시, hanja: 世宗特別自治市) and formerly known as Yeongi (연기, 燕岐) County is South Korea's de facto administrative capital city. In early 2007, the South Korean government created a special administrative district from parts of South Chungcheong Province and North Chungcheong Province provinces, near Daejeon, to relocate nine ministries and four national agencies from Seoul. The new capital opened on 2 July 2012, with 36 government agencies slated to move there by 2015. Wikipedia",
+          "area": "1,849 km²",
+          "population": "604,771 (Oct 2014)"
+        }
+      ]
+    }
+  }

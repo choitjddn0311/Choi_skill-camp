@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+body {
+    background: #1f1f1f;
+}
+#map {
+    width: 30%;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+}
+#cityName {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 100px;
+    color: #fff;
+}
+#cityInfo {
+    width: 100%;
+    height: 800px;
+}
+#cityInfo h3 {
+    width: 100%;
+    height: 10%;
+    line-height: 80px;
+    font-size: 5vw;
+    position: absolute;
+    z-index: 3;
+    display: inline-flex;
+    justify-content: center;
+    color: #b8ca77;
+}
+#info {
+    position: absolute;
+    top: 200px;
+    width:30%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-left: 40px;
+}
+#cityAbout {
+    width: 27%;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+#cityAbout p {
+    color: #b8ca77;
+}
