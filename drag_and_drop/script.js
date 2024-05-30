@@ -28,7 +28,7 @@ const dropbox = document.querySelector("#dropBox")
 						const img = `
 							<div class='photo'>
 								<span onclick='removePhoto(this)'>X</span>
-								<img src='${src}'>
+								<img src='${src}'onclick='scaleImg("${src}")'>
 							</div>
 						`
 						photobox.innerHTML += img
@@ -38,7 +38,19 @@ const dropbox = document.querySelector("#dropBox")
 		}
 
         const removePhoto = (e) => e.parentElement.remove()
+		const imgModal = document.getElementById('imgModal')
+		const modalImg = document.getElementById('modalImage')
         const del = document.getElementById('del')
+		const close = document.getElementById('close')
         del.addEventListener('click' , () => {
             photobox.innerHTML =  '';
         })
+
+		const scaleImg = (src) => {
+			modalImg.src = src
+			imgModal.style.display = "flex"
+		};
+		close.addEventListener('click' , () => {
+			imgModal.style.display = "none"
+		})
+
