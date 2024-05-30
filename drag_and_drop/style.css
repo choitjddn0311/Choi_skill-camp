@@ -1,0 +1,30 @@
+#dropBox {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px dotted lightslategray;
+    font-size: 20px;
+}
+.photo {
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    border: 1px solid #addadd;
+    border-radius: 5px;
+}
+.photo img {
+    max-width: 300px;
+    max-height: 300px;
+}
+.photo span {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    color: #fff;
+    font-weight: 800;
+}

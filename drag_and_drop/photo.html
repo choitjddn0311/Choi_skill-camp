@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drag and drop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="dropBox" ondrop="dropHandler(event)"
+    ondragover="overHandler(event)"
+    ondragleave="leaveHandler(event)"
+    >drop Images Here.</div>
+    <div id="photoBox"></div>
+    <button id="del">삭제!</button>
+    <script src="script.js"></script>
+</body>
+</html>
