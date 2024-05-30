@@ -14,7 +14,7 @@ a {
 }
 .contain {
     width: 100%;
-    height: 250vh;
+    height: 150vh;
     background: #3f3f3f;
 }
 .contain h1 {
@@ -217,7 +217,7 @@ a {
 }
 .apps_contain {
     width: 100%;
-    height: 100px;
+    height: 120px;
     margin-top: 60px;
 }
 .apps_contain > ul {
@@ -269,4 +269,68 @@ a {
 }
 .apps_contain > ul > li:nth-child(3) {
     background: #fff;
+}
+.apps_contain > .second {
+    margin-top: 20px;
+}
+#openModal {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 10px;
+}
+#openModal > h3 {
+    text-align: center;
+    line-height: 50px;
+}
+#modalBox {
+    width: 100%;
+    height: 150vh;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    /* display: none; */
+}
+#modalInfo {
+    width: 600px;
+    height: 400px;
+    background: #eee;
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 20px;
+}
+#closeModal {
+    width: 100px;
+    height: 40px;
+    background: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+#closeModal i {
+    font-size: 40px;
+    color: #fff;
+}
+.bar {
+    width: 150px;
+    height: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+    animation: bounce 5s infinite linear;
+}
+@keyframes bounce {
+    0% , 40% , 80%{
+        transform: translateY(-2px);
+    }
+    20%, 60%,99% ,100% {
+        transform: translateY(0);
+    }
 }

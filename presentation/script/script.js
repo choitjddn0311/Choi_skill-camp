@@ -14,6 +14,12 @@ window.onload = function() {
 }
 
 
+const openBtn = document.getElementById('openModal');
+const closeBtn = document.getElementById('closeModal');
+const modalBox = document.getElementById('modalBox');
+
+openBtn
+
 
 
 //padStart 숫자앞에 0붙이는거 padStart(앞에 몇칸채울지 , 뒤에는 무슨숫자로)
