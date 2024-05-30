@@ -278,6 +278,7 @@ a {
     height: 50px;
     background: #fff;
     border-radius: 10px;
+    cursor: pointer;
 }
 #openModal > h3 {
     text-align: center;
@@ -289,11 +290,11 @@ a {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     top: 0;
-    /* display: none; */
+    display: none;
 }
 #modalInfo {
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    height: 300px;
     background: #eee;
     position: sticky;
     top: 50%;
@@ -304,17 +305,34 @@ a {
 #closeModal {
     width: 100px;
     height: 40px;
-    background: red;
+    background: orange;
     position: absolute;
     top: 0;
     right: 0;
     border-top-right-radius: 20px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 #closeModal i {
     font-size: 40px;
     color: #fff;
+}
+.info_inner {
+    width: 800px;
+    height: 300px;
+    padding: 50px;
+}
+.Myskills {
+    width: 100%;
+    height: 50px;
+}
+.Myskills > h3 {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    line-height: 50px;
+    text-transform: capitalize;
 }
 .bar {
     width: 150px;
@@ -333,4 +351,42 @@ a {
     20%, 60%,99% ,100% {
         transform: translateY(0);
     }
+}
+.lang_contain {
+    width: 100%;
+    height: 150px;
+    /* overflow: hidden; */
+}
+.lang_slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.lang_slide > i {
+    width: 100%;
+    height: 100%;
+    font-size: 7vw;
+    text-align: center;
+    line-height: 150px;
+    transition: 0.5s;
+}
+.lang_slide i:first-child:hover {
+    color: orangered;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.lang_slide i:nth-child(2):hover {
+    color: #001aff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.lang_slide i:nth-child(3):hover {
+    color: #e7c500;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.lang_slide i:nth-child(4):hover {
+    color: #0084ff;
+    cursor: pointer;
+    transition: 0.5s;
 }

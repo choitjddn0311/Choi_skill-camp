@@ -18,7 +18,12 @@ const openBtn = document.getElementById('openModal');
 const closeBtn = document.getElementById('closeModal');
 const modalBox = document.getElementById('modalBox');
 
-openBtn
+openBtn.addEventListener('click' , () => {
+    modalBox.style.display = "flex";
+})
+closeBtn.addEventListener('click' , () => {
+    modalBox.style.display = "none"
+})
 
 
 
