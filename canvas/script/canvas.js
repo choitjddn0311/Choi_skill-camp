@@ -51,3 +51,9 @@ const drawLine = (x , y) => {
 window.onmousedown = mouseDown
 window.onmousemove = mouseMove
 window.onmouseup = mouseUp
+
+const saveCanvas = (link) => {
+    const src = canvas.toDataURL("image/png")
+    link.download = "photo.png"
+    link.href = src
+}
