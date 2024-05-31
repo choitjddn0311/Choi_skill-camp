@@ -8,10 +8,11 @@
 </head>
 <body>
     <form action="">
-        <input type="file" id="photo" accept="image/*">
-        <a href="#" onclick="saveCanvas(this)">그림저장</a>
+        <label for="photo" class="imgUpload">select the file</label>
+        <input type="file" id="photo" accept="image/*" style="display: none;"> 
+        <a href="#" onclick="saveCanvas(this)" id="imgSave">save the file</a>
     </form>
-    <canvas id="myCanvas" width="500" height="500"></canvas>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
     <script src="script/canvas.js"></script>
 </body>
 </html>

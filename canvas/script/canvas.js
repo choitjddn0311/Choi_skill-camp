@@ -26,7 +26,7 @@ const mouseDown = (e) => {
     drawing = true
     lastX = e.clientX
     lastY = e.clientY
-    drawLine(lastx , lastY)
+    drawLine(lastX , lastY)
 }
 const mouseMove = (e) => {
     if (! drawing) return
